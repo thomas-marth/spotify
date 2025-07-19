@@ -8,9 +8,23 @@
 
 .icons {
   cursor: pointer;
-  transition: fill 0.2s;
+  color: #1ed760;
+  transition: all 0.2s;
 }
 
 .icons:hover {
-  fill: #1181f1;
+  color: #1181f1;
+
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 520px) {
+  .icons {
+    width: 100%;
+    height: auto;
+  }
+
+  .border {
+    padding: 26px 47px 28px;
+  }
 }
