@@ -1,0 +1,19 @@
+.wrapper {
+  justify-items: center;
+}
+
+.title {
+  color: #1ed760;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.text {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 31px;
+}
