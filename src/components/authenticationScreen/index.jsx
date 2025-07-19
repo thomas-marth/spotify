@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import AuthenticationButtons from "./../authenticationButtons/index";
 
-function Authentification() {
+function AuthenticationScreen() {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.title}>LIFE IS WASTED ON THE LIVING</h1>
@@ -15,4 +15,4 @@ function Authentification() {
   );
 }
 
-export default Authentification;
+export default AuthenticationScreen;
